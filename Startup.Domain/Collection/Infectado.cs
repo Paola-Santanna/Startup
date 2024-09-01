@@ -14,16 +14,6 @@ public class Infectado
         Localizacao = new GeoJson2DGeographicCoordinates(longitude, latitude);
     }
 
-    /*
-    public Infectado(string id, DateTime dataNascimento, string sexo, GeoJson2DGeographicCoordinates localizacao)
-    {
-        Id = id;
-        DataNascimento = dataNascimento;
-        Sexo = sexo;
-        Localizacao = localizacao;
-    }
-    */
-
     public ObjectId Id;    
     public DateTime DataNascimento { get; set; }
     public string Sexo { get; set; }
